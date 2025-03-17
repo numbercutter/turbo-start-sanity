@@ -1,4 +1,4 @@
-import "@/ui/globals.css";
+import "globals.css";
 
 import { revalidatePath, revalidateTag } from "next/cache";
 import { Geist, Geist_Mono } from "next/font/google";
