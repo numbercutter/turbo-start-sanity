@@ -1,5 +1,5 @@
-import { Badge } from "@workspace/ui/components/badge";
-import { cn } from "@workspace/ui/lib/utils";
+import { Badge } from "@/ui/components/badge";
+import { cn } from "@/ui/lib/utils";
 
 import type { PagebuilderType } from "@/types";
 

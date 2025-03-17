@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@workspace/ui/lib/utils";
+import { cn } from "@/ui/lib/utils";
 import { useState } from "react";
 
 /**

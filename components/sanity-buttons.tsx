@@ -1,5 +1,5 @@
-import { Button } from "@workspace/ui/components/button";
-import { cn } from "@workspace/ui/lib/utils";
+import { Button } from "@/ui/components/button";
+import { cn } from "@/ui/lib/utils";
 import Link from "next/link";
 import type { ComponentProps } from "react";
 

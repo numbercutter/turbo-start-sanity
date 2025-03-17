@@ -1,4 +1,4 @@
-import { Badge } from "@workspace/ui/components/badge";
+import { Badge } from "@/ui/components/badge";
 
 import type { PagebuilderType } from "@/types";
 

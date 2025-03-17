@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@/ui/components/button";
 import { ChevronRight, LoaderCircle } from "lucide-react";
 import Form from "next/form";
 import { useFormStatus } from "react-dom";
@@ -11,7 +11,7 @@ import { RichText } from "../richtext";
 
 // const InteractiveGridPattern = dynamic(
 //   () =>
-//     import("@workspace/ui/components/interactive-grid-pattern").then(
+//     import("@/ui/components/interactive-grid-pattern").then(
 //       (mod) => mod.InteractiveGridPattern,
 //     ),
 //   {

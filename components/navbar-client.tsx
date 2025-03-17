@@ -5,8 +5,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@workspace/ui/components/accordion";
-import { Button, buttonVariants } from "@workspace/ui/components/button";
+} from "@/ui/components/accordion";
+import { Button, buttonVariants } from "@/ui/components/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,14 +15,10 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@workspace/ui/components/navigation-menu";
-import {
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@workspace/ui/components/sheet";
-import { Sheet, SheetTrigger } from "@workspace/ui/components/sheet";
-import { cn } from "@workspace/ui/lib/utils";
+} from "@/ui/components/navigation-menu";
+import { SheetContent, SheetHeader, SheetTitle } from "@/ui/components/sheet";
+import { Sheet, SheetTrigger } from "@/ui/components/sheet";
+import { cn } from "@/ui/lib/utils";
 import { Menu } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";

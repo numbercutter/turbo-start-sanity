@@ -1,4 +1,4 @@
-import "@workspace/ui/globals.css";
+import "@/ui/globals.css";
 
 import { revalidatePath, revalidateTag } from "next/cache";
 import { Geist, Geist_Mono } from "next/font/google";
