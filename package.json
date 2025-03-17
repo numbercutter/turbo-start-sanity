@@ -42,6 +42,7 @@
     "server-only": "^0.0.1",
     "slugify": "^1.6.6",
     "styled-components": "^6.1.15",
+    "tailwind": "^4.0.0",
     "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
