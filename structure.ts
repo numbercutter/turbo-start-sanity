@@ -17,8 +17,8 @@ import type {
   StructureResolverContext,
 } from "sanity/structure";
 
-import type { SchemaType, SingletonType } from "./schemaTypes";
-import { getTitleCase } from "./utils/helper";
+import type { SchemaType, SingletonType } from "./app/studio/schemaTypes";
+import { getTitleCase } from "./app/studio/utils/helper";
 
 type Base<T = SchemaType> = {
   id?: string;

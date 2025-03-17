@@ -10,12 +10,12 @@ import {
 import { iconPicker } from "sanity-plugin-icon-picker";
 import { media, mediaAssetSource } from "sanity-plugin-media";
 
-import { Logo } from "./components/logo";
+import { Logo } from "./app/studio/components/logo";
 import { locations } from "./location";
-import { presentationUrl } from "./plugins/presentation-url";
-import { schemaTypes } from "./schemaTypes";
+import { presentationUrl } from "./app/studio/plugins/presentation-url";
+import { schemaTypes } from "./app/studio/schemaTypes";
 import { structure } from "./structure";
-import { createPageTemplate } from "./utils/helper";
+import { createPageTemplate } from "./app/studio/utils/helper";
 
 const projectId = process.env.SANITY_STUDIO_PROJECT_ID ?? "";
 const dataset = process.env.SANITY_STUDIO_DATASET;
