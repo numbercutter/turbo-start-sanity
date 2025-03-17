@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/rayspartz/Desktop/Code/turbo-start-sanity/app/not-found.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function NotFound() {\n  return (\n    <div className=\"flex min-h-[calc(100vh-400px)] flex-col items-center justify-center gap-4 p-4\">\n      <h1 className=\"text-6xl font-bold text-foreground animate-bounce\">404</h1>\n      <p className=\"text-lg text-muted-foreground animate-fade-in\">\n        The page you are looking for does not exist.\n      </p>\n      <Link\n        href=\"/\"\n        aria-label=\"Return Home\"\n        className=\"rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-200 ease-in-out animate-fade-in-up\"\n      >\n        Return Home\n      </Link>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAoD;;;;;;0BAClE,8OAAC;gBAAE,WAAU;0BAAgD;;;;;;0BAG7D,8OAAC,4JAAA,CAAA,UAAI;gBACH,MAAK;gBACL,cAAW;gBACX,WAAU;0BACX;;;;;;;;;;;;AAKP","debugId":null}}]
+}
