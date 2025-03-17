@@ -1,3 +1,4 @@
+// This file is used on the client side
 import { assist } from "@sanity/assist";
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
